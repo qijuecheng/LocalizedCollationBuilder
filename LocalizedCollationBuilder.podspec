@@ -8,12 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name         = "LocalizedCollationBuilder"
-  s.version      = "1.0.0"
-  s.summary      = "Sort by alphabet or Chinese pinyin."
-  s.homepage     = "https://github.com/qijuecheng/LocalizedCollationBuilder.git"
+  s.version      = "0.0.1"
+  s.summary      = "根据字母或者中文拼音排序"
+  s.homepage     = "https://github.com/qijuecheng/LocalizedCollationBuilder"
   s.license      = "MIT"
   s.author             =  "漆珏成"
-
+  s.swift_version = "4.0"
+  s.platform = :ios, "9.0"
   s.source       = { :git => "https://github.com/qijuecheng/LocalizedCollationBuilder.git", :tag => "#{s.version}" }
-  s.source_files = "LocalizedCollationBuilder/*.{h,m}"
+  s.source_files = "LocalizedCollationBuilder/*.swift"
 end
