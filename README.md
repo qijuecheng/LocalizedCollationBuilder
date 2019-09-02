@@ -1,5 +1,5 @@
 # LocalizedCollationBuilder
-根据字母或者中文拼音快速排序
+##根据字母或者中文拼音快速排序
 ```
 class Person: LocalizedCollationable {
   var collationKey: String? {
